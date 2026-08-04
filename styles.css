@@ -1,0 +1,429 @@
+css
+/* ======================================================
+   AURA DATABASE
+   styles.css
+   Version 1.0
+====================================================== */
+
+:root{
+    --bg:#090b12;
+    --bg2:#111827;
+    --card:#181f30;
+    --card2:#20283d;
+
+    --primary:#00d4ff;
+    --secondary:#7a5cff;
+    --accent:#ffb703;
+
+    --text:#ffffff;
+    --muted:#b6bfd3;
+
+    --success:#3ddc84;
+    --danger:#ff4d6d;
+
+    --shadow:0 15px 40px rgba(0,0,0,.45);
+    --radius:18px;
+
+    --transition:.3s ease;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:
+    radial-gradient(circle at top,#16213e 0%,#090b12 55%);
+    color:var(--text);
+    font-family:Arial,Helvetica,sans-serif;
+    min-height:100vh;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background:var(--primary);
+    border-radius:10px;
+}
+
+/* ==========================
+   Navigation
+========================== */
+
+nav{
+    position:sticky;
+    top:0;
+    z-index:999;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 10%;
+
+    background:rgba(0,0,0,.55);
+    backdrop-filter:blur(16px);
+}
+
+.logo{
+    font-size:2rem;
+    font-weight:bold;
+    color:var(--primary);
+
+    text-shadow:0 0 15px var(--primary);
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:var(--transition);
+}
+
+nav a:hover{
+    color:var(--primary);
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.hero{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+
+    text-align:center;
+
+    padding:120px 20px;
+}
+
+.hero h1{
+
+    font-size:4rem;
+
+    margin-bottom:20px;
+
+    text-shadow:
+    0 0 10px var(--primary),
+    0 0 30px var(--primary);
+
+}
+
+.hero p{
+
+    color:var(--muted);
+
+    max-width:700px;
+
+    line-height:1.8;
+
+    font-size:1.2rem;
+
+}
+
+/* ==========================
+Buttons
+========================== */
+
+button,.btn{
+
+    padding:14px 28px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:linear-gradient(
+    135deg,
+    var(--primary),
+    var(--secondary));
+
+    color:white;
+
+    font-size:1rem;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:
+    0 0 20px rgba(0,212,255,.35);
+
+}
+
+button:hover,
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:
+    0 0 40px rgba(0,212,255,.8);
+
+}
+
+/* ==========================
+Cards
+========================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+
+    margin:60px 0;
+
+}
+
+.card{
+
+    background:var(--card);
+
+    padding:25px;
+
+    border-radius:var(--radius);
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+    border:1px solid rgba(255,255,255,.05);
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    background:var(--card2);
+
+    border-color:var(--primary);
+
+}
+
+.card h2{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:var(--muted);
+
+    line-height:1.7;
+
+}
+
+/* ==========================
+Search
+========================== */
+
+.search{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin:40px 0;
+
+}
+
+.search input{
+
+    width:450px;
+
+    max-width:90%;
+
+    padding:15px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:40px;
+
+    background:#1d2436;
+
+    color:white;
+
+    font-size:1rem;
+
+}
+
+.search input:focus{
+
+    box-shadow:0 0 25px var(--primary);
+
+}
+
+/* ==========================
+Footer
+========================== */
+
+footer{
+
+    text-align:center;
+
+    padding:40px;
+
+    color:var(--muted);
+
+}
+
+/* ==========================
+Glow Animation
+========================== */
+
+@keyframes glow{
+
+    0%{
+
+        text-shadow:
+        0 0 10px var(--primary);
+
+    }
+
+    50%{
+
+        text-shadow:
+        0 0 35px var(--primary);
+
+    }
+
+    100%{
+
+        text-shadow:
+        0 0 10px var(--primary);
+
+    }
+
+}
+
+.glow{
+
+    animation:glow 3s infinite;
+
+}
+
+/* ==========================
+Fade Up
+========================== */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:
+        translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:
+        translateY(0);
+
+    }
+
+}
+
+.fade-up{
+
+    animation:fadeUp .8s ease forwards;
+
+}
+
+/* ==========================
+Responsive
+========================== */
+
+@media(max-width:900px){
+
+.hero h1{
+
+font-size:2.8rem;
+
+}
+
+nav{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+nav ul{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+}
+
+}
+
+@media(max-width:600px){
+
+.hero{
+
+padding:80px 15px;
+
+}
+
+.hero h1{
+
+font-size:2.2rem;
+
+}
+
+.hero p{
+
+font-size:1rem;
+
+}
+
+.grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+```
