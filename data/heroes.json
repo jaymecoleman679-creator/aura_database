@@ -1,0 +1,259 @@
+[
+
+  {
+
+    "id": 1,
+
+    "name": "Fireflight",
+
+    "realName": "Unknown",
+
+    "alias": "The Temporal Flame",
+
+    "universe": "Earth-1",
+
+    "alignment": "Hero",
+
+    "status": "Active",
+
+    "origin": "Elemental Energy",
+
+    "powers": [
+
+      "Pyrokinesis",
+
+      "Time Manipulation",
+
+      "Flame Flight",
+
+      "Heat Immunity",
+
+      "Radiant Vision",
+
+      "Flame Constructs"
+
+    ],
+
+    "weaknesses": [
+
+      "Cannot manipulate the Void outside the Void."
+
+    ],
+
+    "team": "Aura Protectors",
+
+    "description": "The primary guardian of Earth-1 who commands both fire and localized time."
+
+  },
+
+  {
+
+    "id": 2,
+
+    "name": "Bee",
+
+    "realName": "Dayvon",
+
+    "alias": "Bio-Electric Eagle",
+
+    "universe": "Earth-10091",
+
+    "alignment": "Hero",
+
+    "status": "Active",
+
+    "origin": "Bio-Electric Mutation",
+
+    "powers": [
+
+      "Electric Generation",
+
+      "Electric Absorption",
+
+      "Lightning Flight",
+
+      "Energy Blasts",
+
+      "White Lightning Overcharge"
+
+    ],
+
+    "weaknesses": [
+
+      "Can become unstable when heavily overcharged."
+
+    ],
+
+    "team": "Aura Protectors",
+
+    "description": "A lightning-powered hero from Bloodhaven capable of producing devastating electrical attacks."
+
+  },
+
+  {
+
+    "id": 3,
+
+    "name": "Gate",
+
+    "realName": "Ricky",
+
+    "alias": "The Riftwalker",
+
+    "universe": "Earth-1",
+
+    "alignment": "Hero",
+
+    "status": "Active",
+
+    "origin": "Space Stone",
+
+    "powers": [
+
+      "Portal Creation",
+
+      "Teleportation",
+
+      "Space Manipulation",
+
+      "Dimensional Travel"
+
+    ],
+
+    "weaknesses": [
+
+      "Heavy use of portals drains his energy."
+
+    ],
+
+    "team": "Aura Protectors",
+
+    "description": "Discovered the Space Stone inside an abandoned bunker, granting mastery over space itself."
+
+  },
+
+  {
+
+    "id": 4,
+
+    "name": "Sunstar",
+
+    "realName": "Archer Winchester",
+
+    "alias": "Sunstar",
+
+    "universe": "Earth-10099",
+
+    "alignment": "Hero",
+
+    "status": "Active",
+
+    "origin": "Solar Experiment",
+
+    "powers": [
+
+      "Solar Energy",
+
+      "Energy Projection",
+
+      "Super Strength",
+
+      "Extreme Durability"
+
+    ],
+
+    "weaknesses": [
+
+      "Power decreases significantly at night."
+
+    ],
+
+    "team": "Aura Protectors",
+
+    "description": "A NASA experiment transformed Archer into a living solar reactor."
+
+  },
+
+  {
+
+    "id": 5,
+
+    "name": "Justin Bronco",
+
+    "realName": "Justin Bronco",
+
+    "alias": "JB",
+
+    "universe": "Earth-1",
+
+    "alignment": "Hero",
+
+    "status": "Active",
+
+    "origin": "Unknown",
+
+    "powers": [
+
+      "Elastic Body",
+
+      "Shape Shifting",
+
+      "Enhanced Agility"
+
+    ],
+
+    "weaknesses": [
+
+      "Extreme cold reduces flexibility."
+
+    ],
+
+    "team": "Aura Protectors",
+
+    "description": "An elastic fighter whose body can stretch, compress, and reshape during combat."
+
+  },
+
+  {
+
+    "id": 6,
+
+    "name": "Russel Riley",
+
+    "realName": "Russel Riley",
+
+    "alias": "Rolls Royce",
+
+    "universe": "Earth-1",
+
+    "alignment": "Hero",
+
+    "status": "Active",
+
+    "origin": "Artificial Sun Distributor",
+
+    "powers": [
+
+      "Artificial Solar Core",
+
+      "Energy Amplification",
+
+      "Flight",
+
+      "Super Strength",
+
+      "Energy Blasts"
+
+    ],
+
+    "weaknesses": [
+
+      "24-hour power limit",
+
+      "Requires a 5-hour recharge"
+
+    ],
+
+    "team": "Aura Protectors",
+
+    "description": "Uses the Artificial Sun Distributor (A.S.D.) developed by TechLabs to become a powerhouse."
